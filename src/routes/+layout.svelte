@@ -19,7 +19,7 @@
     a {
       color: black;
       text-decoration: underline;
-      font-weight: 800;
+      font-weight: 700;
     }
   }
 
