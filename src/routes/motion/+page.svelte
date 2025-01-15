@@ -2,7 +2,7 @@
 <p>my motion design projects</p>
 
 <div class="project_motion">
-    <img class="thumbnail" src="designHeroVideoScreenshot.png" />
+    <img class="thumbnail" alt="a thumbnail for my design hero motion graphics video" src="designHeroVideoScreenshot.png" />
     <h2>Design Hero Video</h2>
     <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
     <a target="_blank" href="https://vimeo.com/941792204">vimeo</a>
