@@ -1,3 +1,7 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <h1>motion</h1>
 <p>my motion design projects</p>
 
@@ -5,7 +9,7 @@
   <img
     class="thumbnail"
     alt="a thumbnail for my design hero motion graphics video"
-    src="designHeroVideoScreenshot.png"
+    src="{base}/designHeroVideoScreenshot.png"
   />
   <h2>Design Hero Video</h2>
   <div class="description">
