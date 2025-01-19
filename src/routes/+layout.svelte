@@ -9,6 +9,7 @@
     <a href="{base}/contact">contact</a>
     <a href="{base}/motion">motion</a>
     <a href="{base}/code">code</a>
+    <a href="{base}/illustrations">illustrations</a>
     <a href="{base}/about">about</a>
   </nav>
   {@render children()}
