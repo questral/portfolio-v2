@@ -1,1 +1,0 @@
-import{a as o,t as p}from"../chunks/disclose-version.BqNNfnJw.js";import"../chunks/legacy.Ca-9A5xd.js";import{n as e}from"../chunks/runtime.CwBQ-803.js";var r=p("<h1>about</h1> <p>this is an about me page</p>",1);function s(a){var t=r();e(2),o(a,t)}export{s as component};
