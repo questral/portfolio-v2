@@ -1,57 +1,188 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="./favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&display=swap"
-		rel="stylesheet">
-	
-		<link href="./app/immutable/assets/0.BKHE6GJ5.css" rel="stylesheet">
-		<link rel="modulepreload" href="./app/immutable/entry/start.B57Tk1ij.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/entry.B7z29Puc.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/runtime.Ddzvn9_I.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/paths.DJauYRxy.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/index-client.CEEVvhlS.js">
-		<link rel="modulepreload" href="./app/immutable/entry/app.CfiNnlYn.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/render.Bea1eiHQ.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/disclose-version.Cp1o6_22.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/0.BAuMnuNu.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/attributes.uUiKkSrv.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/2.ByASHy2M.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/legacy.Bj_jIXt5.js">
-</head>
 
-<body data-sveltekit-preload-data="hover">
-	<div style="display: contents"><!--[--><!--[--><!----><div class="container svelte-159fdzt"><nav><a class="nametag svelte-159fdzt" href="./">kai okorodudu</a> <a href="./contact">contact</a> <a href="./motion">motion</a> <a href="./code">code</a> <a href="./illustrations">illustrations</a> <a href="./about">about</a></nav> <!----><h1>portfolio</h1><!----><!----></div><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_gq7p3m = {
-						base: new URL(".", location).pathname.slice(0, -1),
-						assets: "/portfolio-v1"
-					};
+<html>
 
-					const element = document.currentScript.parentElement;
 
-					Promise.all([
-						import("./app/immutable/entry/start.B57Tk1ij.js"),
-						import("./app/immutable/entry/app.CfiNnlYn.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-</body>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- this meta code allows mobile devices to pretend they have fewer pixels than they do, which makes the mobile media queries work -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
+        <title>kai okorodudu</title>
+
+        <link rel="icon" type="image/svg+xml" href="svgs/favicon.svg" id="favicon">
+        <!-- <link rel="icon" type="image/x-icon" href="svgs/favicon.svg" media="(prefers-color-scheme: light)">
+        <link rel="icon" type="image/x-icon" href="svgs/favicon light.svg" media="(prefers-color-scheme: dark)"> -->
+        <!-- <link rel="icon" type="image/png" href="images/favicon.png" > -->
+        
+    </head>
+
+
+    <body>
+
+        <nav>
+            <section id="header-text">
+                <div id="name">
+                    <img src="svgs/name bold.svg"/>
+                </div>
+
+                <div id="about">
+                    <p>I’m a motion designer, graphic designer, and creative coder, working to expand the digital mediums we use to express visuals. In my free time, I like to experiment with music, illustration, and p5js.</p>
+                </div>
+
+                <div id="contact-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kai-okorodudu-0a6299299/" target="_blank">linkedin</a>
+                            <img src="svgs/linkedin icon.svg"/>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kokoro.dsgn/" target="_blank">instagram</a>
+                            <img src="svgs/instagram icon.svg"/>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@kokorodu.design" target="_blank">youtube</a>
+                            <img src="svgs/youtube icon.svg"/>
+                        </li>
+                        <li>
+                            <a href="mailto:kokorodu.design@gmail.com">email</a>
+                            <img src="svgs/email icon.svg"/>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <div id="empty"></div> -->
+
+            </section>
+            <section id="guy">
+                <img src="svgs/headphone guy.svg"/>
+            </section>
+
+        </nav>
+        
+
+        <main>
+
+            <div class="project">
+                <img src="images/design hero video.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Design Hero video</h1>
+                            <h2>2024</h2>
+                        </header>
+                        <p>a video celebrating the work of designer Kiel Mutschelknaus</p>
+                    </section>
+                    <aside class="tag">motion design</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/tank man.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Tank Man</h1>
+                            <h2>2023</h2>
+                        </header>
+                        <p>exploring the historical context that led to the Tank Man typeface</p>
+                    </section>
+                    <aside class="tag">motion design</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/body weave.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Body Weave</h1>
+                            <h2>2024</h2>
+                        </header>
+                        <p>an interactive experience that lets you redefine your own body</p>
+                    </section>
+                    <aside class="tag">creative code</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/tixy text.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Tixy Text</h1>
+                            <h2>2024</h2>
+                        </header>
+                        <p>a simple text-based shader with infinite permutations</p>
+                    </section>
+                    <aside class="tag">creative code</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/custom pixel.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Mirror Pixels</h1>
+                            <h2>2024</h2>
+                        </header>
+                        <p>an interactive mosaic built from your camera footage</p>
+                    </section>
+                    <aside class="tag">creative code</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/design hero booklet.png" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Design Hero booklet</h1>
+                            <h2>2024</h2>
+                        </header>
+                        <p>a 16-page booklet celebrating the work of designer Kiel Mutschelknaus</p>
+                    </section>
+                    <aside class="tag">print</aside>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/scrappy doo bisque.webp" alt="alt text"/>
+                <div class="description">
+                    <section>
+                        <header>
+                            <h1>Dinner</h1>
+                            <h2>2022</h2>
+                        </header>
+                        <p>A beautiful image I keep on my nightstand to stare at every day. A beautiful image I keep on my nightstand to stare at every day.</p>
+                    </section>
+                    <aside class="tag">scrappy</aside>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <a href="#" id="to-top">back to top ↑</a>
+            <script>
+                document.addEventListener('scroll', () => {
+                    // const toTopButton = document.querySelector("#to-top");
+
+                    // if (window.scrollY > 200) {
+                    //     toTopButton.classList.add("show");
+                    // } else {
+                    //     toTopButton.classList.remove("show");
+                    // }
+                });
+            </script>
+        </footer>
+    </body>
+
+    <!-- <ul></ul> -->
 </html>
