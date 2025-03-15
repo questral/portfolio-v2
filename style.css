@@ -75,10 +75,10 @@ html {
 	overscroll-behavior-y: none;
 	scroll-behavior: smooth;
 
-	--light: rgba(255,255,255,1);
-	--dark: rgba(0,0,0,1);
-	/* --light: rgba(0,0,0,1); */
-	/* --dark: rgba(255,255,255,1); */
+	/* --light: rgba(255,255,255,1);
+	--dark: rgba(0,0,0,1); */
+	--light: rgba(0,0,0,1);
+	--dark: rgba(255,255,255,1);
 
 	background: var(--light);
 
@@ -440,9 +440,24 @@ body.subpage {
 	margin-left: calc(1.5vw - 10px);
 	padding-right: 10px;
 	padding-right: 10px;
-	mix-blend-mode: difference;
+	/* mix-blend-mode: difference; */
 	/* transition: opacity 0.2s ease; */
 	/* z-index: 100; */
+}
+
+.subpage .name {
+	background: var(--light);
+	width: auto;
+	height: 20px;
+	padding: 10px;
+	padding-top: 15px;
+	margin-left: calc(1.5vw - 10px);
+	padding-right: 10px;
+	padding-right: 10px;
+}
+
+.cls-1 {
+	fill: var(--dark);
 }
 
 /* .subpage nav img:hover {
